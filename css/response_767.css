@@ -34,11 +34,14 @@
         padding-bottom: 320px;
     }
     .marketing_text {
-        font-size: 16px;
+        font-size: 10px;
     }
     .test_text {
-        font-size: 22px;
+        font-size: 16px;
         margin-bottom: 30px;
+    }
+    .marketing {
+        padding: 10px 0;
     }
     .test {
         padding: 20px 0 30px;
@@ -62,7 +65,7 @@
     }
     .consultant_text span,
     .consultant_text {
-        font-size: 22px;
+        font-size: 18px;
     }
     .consultant_text {
         margin-top: 0;
@@ -73,7 +76,7 @@
         font-size: 20px;
     }
     .consultant_name {
-        font-size: 22px;
+        font-size: 21px;
     }
     .describe h2 {
         font-size: 22px;
@@ -143,6 +146,9 @@
     }
     .survey .cont {
         padding: 0;
+    }
+    .info-block {
+        background: url(../images/background_mobile.png);
     }
 
 

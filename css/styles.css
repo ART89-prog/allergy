@@ -537,11 +537,15 @@ header .cont {
 }
 .describe img.fr {
     float: right;
-    margin-left: 66px;    
+    margin-left: 66px; 
+    width: 430px;
+    height: 430px;   
 }
 .describe img.fl {
     float: left;
     margin-right: 66px;
+    width: 430px;
+    height: 430px;
 }
 .describe h2 {
     font-size: 46px;
@@ -621,7 +625,7 @@ p.mb0 {
     margin-bottom: 0;
 }
 .survey_info {
-    padding: 57px 46px;
+    padding: 57px 38px;
     margin-left: calc(100% - 703px);
 }
 .survey_title {
