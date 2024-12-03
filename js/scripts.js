@@ -42,41 +42,5 @@ $(() => {
   })
 
 
-  	// Моб. меню
-	$('header .mob_menu_btn').click((e) => {
-		e.preventDefault()
-
-		$('header .mob_menu_btn').addClass('active')
-		$('body').addClass('menu_open')
-		$('header .menu').addClass('show')
-		$('.overlay').fadeIn(300)
-	})
-
-	$('header .close_btn, header .menu .item a, .overlay').click((e) => {
-		e.preventDefault()
-
-		$('header .mob_menu_btn').removeClass('active')
-		$('body').removeClass('menu_open')
-		$('header .menu').removeClass('show')
-		$('.overlay').fadeOut(300)
-	})
-
-
-
-  // Скрол
-  $(".scroll").on("click", function (e) {
-    e.preventDefault();
-    let id = $(this).attr("href");
-
-    $("html, body").animate({
-      scrollTop: $(id).offset().top + "px"
-    }, {
-      duration: 1500,
-      easing: "swing"
-    });
-  });
-
-
-
 
 })

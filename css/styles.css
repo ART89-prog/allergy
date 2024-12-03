@@ -355,6 +355,7 @@ header .cont {
 .marketing {
     padding: 23px 0;
     background: rgb(81, 70, 143);
+    margin-top: -1px;
 }
 .marketing .cont {
     max-width: 1040px;
@@ -389,7 +390,8 @@ header .cont {
     font-family: var(--font-family);
     line-height: 1.2;
     font-weight: 600;
-    color: #f30000;  
+    color: #f30000; 
+    text-decoration: none; 
 }
 .test_link {
     display: flex;
@@ -558,7 +560,6 @@ header .cont {
 }
 .describe p a {
     color: rgb(236, 67, 37);
-    text-decoration: none;
 }
 .describe p span {
     color: rgb(74, 60, 169);
@@ -602,12 +603,14 @@ header .cont {
 }
 .survey_info {
     padding: 87px 54px 54px 54px;
+    margin-left: 500px;
 }
 .survey_title {
     color: rgb(74, 60, 169);
     font-size: 40px;
     line-height: 1.2;
     font-weight: 700;
+    margin-bottom: 20px;
 }
 .survey_img {
     position: absolute;
@@ -619,16 +622,10 @@ header .cont {
 .survey_wrap {
     position: relative;
 }
-/* .survey_img:before {
-    z-index: -1;
-    position: absolute;
-    content: "";
-    width: 556px;
-    height: 560px;
-    top: 0px;
-    left: 0px;
-    background: url(../images/survey_bg.png);
-} */
+.survey .test_link a {
+    margin-right: auto;
+}
+
   
 
 
