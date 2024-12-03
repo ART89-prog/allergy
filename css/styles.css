@@ -610,9 +610,16 @@ header .cont {
     font-weight: 700;
 }
 .survey_img {
+    position: absolute;
+    width: 714px;
+    height: 556px;
+    left: -270px;
+    top: -93px; 
+}
+.survey_wrap {
     position: relative;
 }
-.survey_img:before {
+/* .survey_img:before {
     z-index: -1;
     position: absolute;
     content: "";
@@ -621,7 +628,7 @@ header .cont {
     top: 0px;
     left: 0px;
     background: url(../images/survey_bg.png);
-}
+} */
   
 
 
