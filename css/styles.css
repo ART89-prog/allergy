@@ -23,7 +23,7 @@
         url('../fonts/FuturaPT-Book.eot?#iefix') format('embedded-opentype'),
         url('../fonts/FuturaPT-Book.woff') format('woff'),
         url('../fonts/FuturaPT-Book.ttf') format('truetype');
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -73,7 +73,7 @@
         url('../fonts/FuturaPT-Bold.eot?#iefix') format('embedded-opentype'),
         url('../fonts/FuturaPT-Bold.woff') format('woff'),
         url('../fonts/FuturaPT-Bold.ttf') format('truetype');
-    font-weight: bold;
+    font-weight: 700;
     font-style: normal;
 }
 
@@ -364,8 +364,8 @@ header .cont {
     color: rgb(183, 195, 250);
     font-size: 21px;
     font-weight: 400;
-    line-height: 25px;
-    max-width: 920px;
+    line-height: 1.2;
+    font-family: "Roboto";
 }
 
 
@@ -381,7 +381,7 @@ header .cont {
     font-family: var(--font-family);
     font-size: var(--font_size);
     line-height: 1.2;
-    font-weight: 600;
+    font-weight: 500;
     color: #000000;   
     margin-bottom: 35px;
 }
@@ -389,8 +389,8 @@ header .cont {
     white-space: nowrap;
     font-family: var(--font-family);
     line-height: 1.2;
-    font-weight: 600;
-    color: #f30000; 
+    font-weight: 700;
+    color: #ee5b40; 
     text-decoration: none; 
 }
 .test_link {
@@ -401,7 +401,7 @@ header .cont {
     text-decoration: none;
     width: 345px;
     height: 71px;
-    background-color: rgb(238, 91, 64);
+    background-color: #ee5b40;
     border-radius: 35px;
     display: flex;
     align-items: center;
@@ -416,7 +416,7 @@ header .cont {
     transition: all .3s;
 }
 .test_link a:hover {
-    background-color:  #e51616;
+    background-color:  #e84224;
 }
 
 
@@ -434,7 +434,7 @@ header .cont {
     display: flex;
     align-items: center;
     gap: 100px;
-    padding: 70px 100px 80px;
+    padding: 70px 100px;
     background: #fff;
     border-radius: 30px;
     position: relative;
@@ -491,6 +491,7 @@ header .cont {
     margin-top: 4px;
     display: block;
 }
+
 .consultant_name br {
     display: none;
 }
@@ -513,7 +514,7 @@ header .cont {
     text-transform: uppercase;
 }
 .consultant .link:hover {
-    background-color:  #0a7953;
+    background-color:  #5269d6;
 }
 
 
@@ -536,11 +537,11 @@ header .cont {
 }
 .describe img.fr {
     float: right;
-    margin-left: 6px;    
+    margin-left: 66px;    
 }
 .describe img.fl {
     float: left;
-    margin-right: 20px;
+    margin-right: 66px;
 }
 .describe h2 {
     font-size: 46px;
@@ -558,11 +559,16 @@ header .cont {
     font-weight: 400;
     line-height: 1.2;
 }
+.describe p.mt20 {
+    margin-top: 100px;
+}
 .describe p a {
     color: rgb(236, 67, 37);
+    font-weight: 700;
 }
 .describe p span {
     color: rgb(74, 60, 169);
+    font-weight: 700;
 }
 .describe ul {
     margin-bottom: 40px;
@@ -573,6 +579,10 @@ header .cont {
     color: rgb(0, 0, 0);
     font-weight: 400;
     line-height: 1.2;
+}
+.describe ul.ml50 {
+    margin-left: calc(100% - 470px);
+    margin-bottom: 35px;
 }
 .describe ol {
     margin-bottom: 40px;
@@ -601,16 +611,25 @@ header .cont {
     z-index: 1;
     margin-top: 40px;
 }
+.mb40 {
+    margin-bottom: 40px;
+}
+p.mb0 {
+    margin-bottom: 0;
+}
+.describe ul.mb0 {
+    margin-bottom: 0;
+}
 .survey_info {
-    padding: 87px 54px 54px 54px;
-    margin-left: 500px;
+    padding: 57px 46px;
+    margin-left: calc(100% - 703px);
 }
 .survey_title {
     color: rgb(74, 60, 169);
     font-size: 40px;
     line-height: 1.2;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .survey_img {
     position: absolute;
@@ -624,6 +643,8 @@ header .cont {
 }
 .survey .test_link a {
     margin-right: auto;
+    font-size: 30px;
+    font-weight: 700;
 }
 
   
