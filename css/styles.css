@@ -435,6 +435,19 @@ header .cont {
     padding: 70px 100px 80px;
     background: #fff;
     border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.consultant:before {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    width: 657px;
+    height: 547px;
+    top: -100px;
+    left: -33px;
+    background: url(../images/consultant_bg.png);
 }
 .consultant_box {
     margin-top: 26px;
@@ -574,6 +587,41 @@ header .cont {
     margin-bottom: 40px;
 }
 
+
+
+.survey {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    background: #fff;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    margin-top: 40px;
+}
+.survey_info {
+    padding: 87px 54px 54px 54px;
+}
+.survey_title {
+    color: rgb(74, 60, 169);
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+.survey_img {
+    position: relative;
+}
+.survey_img:before {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    width: 556px;
+    height: 560px;
+    top: 0px;
+    left: 0px;
+    background: url(../images/survey_bg.png);
+}
   
 
 
