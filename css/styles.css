@@ -545,7 +545,7 @@ header .cont {
 }
 .describe h2 {
     font-size: 46px;
-    color: rgb(74, 60, 169);
+    color: #4a3ca9;
     font-weight: 700;
     line-height: 1.043;
     margin-bottom: 35px;
@@ -581,7 +581,7 @@ header .cont {
     line-height: 1.2;
 }
 .describe ul.ml50 {
-    margin-left: calc(100% - 470px);
+    margin-left: 535px;
     margin-bottom: 35px;
 }
 .describe ol {
