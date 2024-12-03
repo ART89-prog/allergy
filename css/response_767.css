@@ -88,7 +88,7 @@
     }
     .describe p {
         font-size: 16px;
-        margin-bottom: 15px;
+        margin-bottom: 15px;        
     }
     .describe img.fl {
         margin: 0 auto 25px;
@@ -119,7 +119,7 @@
         height: 100%;
     }
     .survey {
-        padding: 25px 30px 35px;
+        padding: 25px 20px 35px;
     }
     .survey_wrap {
         gap: 20px;
@@ -149,6 +149,10 @@
     }
     .info-block {
         background: url(../images/background_mobile.png);
+    }
+    .survey,
+    .consultant {
+        border-radius: 9px;
     }
 
 

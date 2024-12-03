@@ -4,7 +4,12 @@
     .first-section_wrap {
         padding-bottom: 220px;
     }
-    
+    .survey .test_link a {
+        width: 100%;
+    }
+    .survey_info {
+        width: 100%;
+    }
     
 
 
