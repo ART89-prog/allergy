@@ -3,18 +3,6 @@ $(() => {
 	if (!is_touch_device() || !/(Mac|iPhone|iPod|iPad)/i.test(navigator.platform)) $('html').addClass('custom_scroll')
 
 
-	// Ленивая загрузка
-	setTimeout(() => {
-		observer = lozad('.lozad', {
-			rootMargin: '200px 0px',
-			threshold: 0,
-			loaded: (el) => el.classList.add('loaded')
-		})
-
-		observer.observe()
-	}, 200)
-
-
 	// Установка ширины стандартного скроллбара
 	$(':root').css('--scroll_width', widthScroll() + 'px')
 
@@ -24,8 +12,8 @@ $(() => {
 	fakeResize = false
 	fakeResize2 = true
 
-	if (document.body.clientWidth < 375) {
-	document.getElementsByTagName('meta')['viewport'].content = 'width=375, user-scalable=no'
+	if (document.body.clientWidth < 360) {
+	document.getElementsByTagName('meta')['viewport'].content = 'width=360, user-scalable=no'
 	}
 
 

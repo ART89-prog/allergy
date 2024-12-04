@@ -91,6 +91,16 @@
 }
 
 @font-face {
+    font-family: 'Helios';
+    src: url('../fonts/HeliosCond-Regular.eot');
+    src: local('HeliosCond-Regular'),
+        url('../fonts/HeliosCond-Regular.woff') format('woff'),
+        url('../fonts/HeliosCond-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Open Sans';
     src: local('OpenSans-CondLight'),
         url('../fonts/OpenSans-CondLight.ttf') format('truetype');
@@ -255,7 +265,7 @@ button {
     display: flex;
     overflow: hidden;
     flex-direction: column;
-    min-width: 375px;
+    min-width: 360px;
     min-height: 100%;
     background: #ffebb6;
 }
@@ -473,6 +483,12 @@ header .cont {
     color: #000000; 
     margin-top: -7px;
 }
+.consultant_text br {
+    display: none;
+}
+.consultant_name br {
+    display: none;
+}
 .consultant_text span {
     font-family: var(--font-family);
     color: rgb(18, 151, 104);
@@ -625,7 +641,7 @@ p.mb0 {
     margin-bottom: 0;
 }
 .survey_info {
-    padding: 57px 38px;
+    padding: 53px 49px 50px;
     margin-left: calc(100% - 703px);
 }
 .survey_title {
@@ -633,15 +649,15 @@ p.mb0 {
     font-size: 40px;
     line-height: 1.2;
     font-weight: 700;
-    margin-bottom: 30px;
+    margin-bottom: 27px;
     text-transform: uppercase;
 }
 .survey_img {
     position: absolute;
     width: 714px;
     height: 556px;
-    left: -270px;
-    top: -93px; 
+    left: -272px;
+    top: -100px;
 }
 .survey_img-mob {
     display: none;
@@ -672,17 +688,20 @@ p.mb0 {
     text-transform: uppercase;
     color: rgb(74, 60, 169);
     text-align: center;
-    max-width: 950px;
     margin: 0 auto;
+    font-family: 'Helios';
 }
 
 
 footer {
     background: #fff;
-    padding-top: 40px;
+    padding-top: 12px;
     padding-bottom: 110px;
     position: relative;
     z-index: 55;
+}
+footer .cont {
+    max-width: 1040px;
 }
 .footer_text {
     font-size: 18px;
