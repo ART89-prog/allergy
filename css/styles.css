@@ -586,6 +586,13 @@ header .cont {
     color: rgb(236, 67, 37);
     font-weight: 700;
 }
+.describe p a.norm {
+    font-size: 26px;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    line-height: 1.2;
+    text-decoration: none;
+}
 .describe p span {
     color: rgb(74, 60, 169);
     font-weight: 700;
